@@ -114,3 +114,15 @@ The application uses a multi-page SPA structure with the following routes:
 - **Performance**: Optimized images, lazy loading, smooth animations
 
 The architecture prioritizes user experience with smooth animations, romantic aesthetics, and interactive elements while maintaining clean, maintainable code structure.
+
+## Recent Changes: Latest modifications with dates
+
+### December 12, 2024 - Color Contrast & Animation Fixes
+- Fixed typing animation logic in useTypingAnimation hook with more reliable state management
+- Improved color contrast throughout the application:
+  - Changed button hover colors from dusty-pink to hot-pink and plum for better visibility
+  - Updated photo tooltip from hot-pink background to dark gray with hot-pink border for better readability
+  - Fixed Reasons page boxShadow animation warning by using static shadow instead of animated
+- Added romantic color palette to Tailwind configuration for proper CSS class generation
+- Enhanced homepage spacing with better balanced margins between text and photo sections
+- Fixed CSS import order to resolve build warnings

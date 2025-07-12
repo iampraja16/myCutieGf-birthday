@@ -59,7 +59,7 @@ const InteractivePhoto = () => {
         {/* Custom cursor tooltip */}
         {showCursor && (
           <motion.div
-            className="fixed pointer-events-none z-50 bg-hot-pink text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg"
+            className="fixed pointer-events-none z-50 bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-medium shadow-xl border-2 border-hot-pink"
             style={{ left: cursorPosition.x, top: cursorPosition.y }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}

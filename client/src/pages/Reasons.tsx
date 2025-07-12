@@ -65,8 +65,10 @@ const Reasons = () => {
                 stiffness: 100
               }}
               whileHover={{ 
-                scale: 1.05,
-                boxShadow: "0 20px 40px rgba(248, 187, 217, 0.3)"
+                scale: 1.05
+              }}
+              style={{
+                boxShadow: "0 10px 25px rgba(248, 187, 217, 0.2)"
               }}
               whileTap={{ scale: 0.98 }}
             >

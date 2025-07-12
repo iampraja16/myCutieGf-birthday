@@ -96,7 +96,7 @@ const Home = () => {
             >
               <Link href="/letter">
                 <motion.button
-                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-dusty-pink hover:text-white transition-all duration-300"
+                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-hot-pink hover:text-white hover:shadow-lg transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -106,7 +106,7 @@ const Home = () => {
               </Link>
               <Link href="/gallery">
                 <motion.button
-                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-dusty-pink hover:text-white transition-all duration-300"
+                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-plum hover:text-white hover:shadow-lg transition-all duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
