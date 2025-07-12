@@ -1,39 +1,41 @@
 import { useState, useEffect } from "react";
 
 export const useTypingAnimation = (words: string[], typeSpeed: number = 150, deleteSpeed: number = 100, pauseTime: number = 2000) => {
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentText, setCurrentText] = useState("");
+  const [wordIndex, setWordIndex] = useState(0);
+  const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    if (!words || words.length === 0) return;
+    if (!words.length) return;
+
+    const currentWord = words[wordIndex];
     
-    const currentWord = words[currentWordIndex];
     let timeout: NodeJS.Timeout;
 
-    if (isDeleting) {
-      if (currentText.length > 0) {
-        timeout = setTimeout(() => {
-          setCurrentText(currentText.slice(0, -1));
-        }, deleteSpeed);
-      } else {
-        setIsDeleting(false);
-        setCurrentWordIndex((prev) => (prev + 1) % words.length);
-      }
+    if (!isDeleting && text === currentWord) {
+      // Finished typing current word, wait before deleting
+      timeout = setTimeout(() => setIsDeleting(true), pauseTime);
+    } else if (isDeleting && text === "") {
+      // Finished deleting, move to next word
+      setIsDeleting(false);
+      setWordIndex((prev) => (prev + 1) % words.length);
     } else {
-      if (currentText.length < currentWord.length) {
-        timeout = setTimeout(() => {
-          setCurrentText(currentWord.slice(0, currentText.length + 1));
-        }, typeSpeed);
-      } else {
-        timeout = setTimeout(() => {
-          setIsDeleting(true);
-        }, pauseTime);
-      }
+      // Type or delete one character
+      timeout = setTimeout(() => {
+        setText((prev) => {
+          if (isDeleting) {
+            return prev.slice(0, -1);
+          } else {
+            return currentWord.slice(0, prev.length + 1);
+          }
+        });
+      }, isDeleting ? deleteSpeed : typeSpeed);
     }
 
-    return () => clearTimeout(timeout);
-  }, [currentText, currentWordIndex, isDeleting, words, typeSpeed, deleteSpeed, pauseTime]);
+    return () => {
+      if (timeout) clearTimeout(timeout);
+    };
+  }, [text, wordIndex, isDeleting, words, typeSpeed, deleteSpeed, pauseTime]);
 
-  return currentText;
+  return text;
 };

@@ -61,6 +61,13 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        // Romantic color palette
+        "dusty-pink": "var(--dusty-pink)",
+        "blush": "var(--blush)",
+        "cream": "var(--cream)",
+        "lavender": "var(--lavender)",
+        "hot-pink": "var(--hot-pink)",
+        "plum": "var(--plum)",
       },
       keyframes: {
         "accordion-down": {

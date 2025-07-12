@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Animation Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background: linear-gradient(135deg, #f8bbd9, #e6e6fa, #ffb6c1);
+            min-height: 100vh;
+        }
+        
+        .typing-text {
+            font-size: 2rem;
+            background: linear-gradient(to right, #f8bbd9, #ffb6c1);
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            display: inline-block;
+        }
+        
+        .cursor {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Typing Animation Test</h1>
+    <p>Pacarnya aku yang <span class="typing-text" id="typingText">MANIS</span></p>
+    
+    <script>
+        const words = ['MANIS', 'CANTIK', 'LUCU', 'GEMES', 'CREAMMY', 'VANILLA', 'LEMBUT', 'MWAA2'];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typingText');
+        
+        function typeWriter() {
+            const currentWord = words[wordIndex];
+            
+            if (isDeleting) {
+                // Delete character
+                typingElement.textContent = currentWord.substring(0, charIndex - 1) + '|';
+                charIndex--;
+                
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                    setTimeout(typeWriter, 500);
+                    return;
+                }
+            } else {
+                // Type character
+                typingElement.textContent = currentWord.substring(0, charIndex + 1) + '|';
+                charIndex++;
+                
+                if (charIndex === currentWord.length) {
+                    isDeleting = true;
+                    setTimeout(typeWriter, 2000);
+                    return;
+                }
+            }
+            
+            setTimeout(typeWriter, isDeleting ? 100 : 150);
+        }
+        
+        // Start the animation
+        typeWriter();
+    </script>
+</body>
+</html>
