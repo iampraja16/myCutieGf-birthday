@@ -1,0 +1,89 @@
+Buatkan saya website romantis untuk ulang tahun pacar saya menggunakan React.js + Tailwind CSS + Framer Motion + GSAP. Struktur halaman harus berupa SPA menggunakan React Router DOM. Website ini harus tampil sangat aesthetic, romantis, dan terasa profesional seperti buatan front-end developer handal. Semua halaman harus berupa komponen terpisah di folder /pages, dan komponen UI berada di folder /components.
+
+STRUKTUR HALAMAN (ROUTING):
+1. Home (Landing page romantis)
+2. Gallery (Foto-foto momen dalam masonry grid)
+3. Letter (Surat cinta panjang)
+4. Timeline (Perjalanan kisah cinta)
+5. Reasons (Alasan mencintai)
+6. Wishes (Harapan dan mimpi masa depan)
+
+GAYA & DESAIN UMUM:
+- Gunakan Tailwind CSS untuk seluruh styling dan layout.
+- Font: Heading menggunakan ‘Playfair Display’, body menggunakan ‘Inter’ atau ‘Lora’.
+- Palet warna: dusty pink, blush, cream, lavender.
+- Gunakan efek aesthetic seperti glassmorphism, soft shadow, blur, dan border elegan.
+- Semua halaman harus responsif, dengan animasi Framer Motion dan GSAP.
+
+KHUSUS HALAMAN HOMEPAGE:
+Layout terbagi dua kolom:
+- Kiri: bagian teks romantis
+- Kanan: foto pacar dengan efek animasi
+
+📍 KIRI (TEKS):
+- Teks pertama (lebih besar): “Happy Birthday Yaa”
+- Teks kedua (lebih kecil): “Pacarnya aku yang [MANIS, CANTIK, LUCU, GEMES, CREAMMY, VANILLA, LEMBUT, MWAA2]”
+- Alignment semua teks: kiri (left-aligned)
+- Efek animasi:
+  - Bagian dalam kurung menggunakan efek **typing animation**
+  - Setelah satu kata selesai diketik, diganti dengan kata berikutnya (loop)
+  - Tambahkan efek **border** atau **background translucent** pada teks typing agar menonjol
+  - Gunakan efek kursor kedip (blinking cursor) di akhir teks typing
+
+📍 KANAN (FOTO):
+- Sebuah **frame kotak** (bukan lingkaran) berisi gambar pacar (placeholder: /public/gf.jpg)
+- Awalnya tampil dalam grayscale
+- Saat di-hover:
+  - Gambar menjadi full color (RGB)
+  - Sedikit membesar (scale 1.05) dengan transisi smooth
+  - Cursor berubah menjadi teks custom: “hi, it’s my cutie gf!”
+- Gunakan animasi atau custom tooltip agar teks muncul mengikuti posisi kursor
+
+📍 ESTETIKA TAMBAHAN DI HOMEPAGE:
+- Tambahkan background gradient atau blur halus yang mendukung romantisme.
+- Sertakan **efek kelopak bunga jatuh** secara elegan (menggunakan canvas atau animasi CSS).
+- Untuk menghindari kesan kosong, **berikan ruang kepada AI untuk mengekspresikan kreativitasnya**:
+  > **Silakan tambahkan ornamen-ornamen kecil di halaman Home** (seperti quote pendek, garis melengkung, ilustrasi bunga lembut di sudut, hearts yang muncul saat scroll, atau animasi simbol cinta yang subtle), asalkan tetap menjaga keseimbangan visual. Hindari membuatnya terlalu padat. Tugas Anda adalah menjaga agar homepage tetap indah, romantis, dan tidak terasa kosong.
+
+GALLERY PAGE:
+- Gunakan Masonry layout (boleh menggunakan kode Masonry dari React Bits)
+- Tambahkan efek hover: muncul teks overlay di tiap gambar (caption “Moment di pantai” dll)
+- Gunakan GSAP untuk efek muncul dengan animasi blur-to-focus
+- Hover juga beri efek zoom-in dan shadow lembut
+
+LETTER PAGE:
+- Tampilkan surat cinta panjang
+- Gunakan efek typewriter atau scroll-reveal
+- Background menyerupai kertas, dengan border dan ornamen bunga/hati di sisi kanan-kiri
+
+TIMELINE PAGE:
+- Vertical timeline berisi momen spesial (kenalan, jadian, ulang tahun)
+- Tambahkan emoji tiap poin
+- Gunakan Framer Motion untuk efek scroll muncul satu-satu
+
+REASONS PAGE:
+- Daftar alasan mencintainya dalam bentuk kartu/grid
+- Kartu muncul satu per satu dengan efek stagger
+- Contoh: “Karena kamu sabar banget”, “Kamu manis pas ketawa” dll
+
+WISHES PAGE:
+- Daftar bucket list atau mimpi bareng (misalnya: “Ke Jepang bareng”, “Bikin rumah kecil”, dll)
+- Gunakan checklist interaktif atau bubble mimpi
+- Tambahkan quote terakhir seperti tulisan tangan dengan font handwriting aesthetic
+
+NAVBAR & FOOTER:
+- Sticky navbar di atas (Tailwind, flex-row), berisi link ke semua page
+- Footer tulisan:
+  “Made with ❤️ by [Namamu]”
+  Bisa diberi border atas tipis dan background soft
+
+TEKNOLOGI YANG DIGUNAKAN:
+- React.js
+- Tailwind CSS
+- Framer Motion (untuk animasi scroll, hover, presence)
+- GSAP (untuk animasi masonry)
+- React Router DOM
+- Tanpa UI framework lain seperti Bootstrap
+
+TUJUAN AKHIR:
+Website ini harus menjadi surat cinta digital interaktif yang sangat estetis, elegan, dan emosional. Visual harus lembut namun modern. Animasi boleh kompleks asalkan tetap dapat diakses. Layout harus seimbang, tidak membuang space, dan sangat menyentuh hati pacar saya. Buat seluruh kode dalam struktur React yang bersih, reusable, dan siap saya kustomisasi.
