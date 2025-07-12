@@ -6,25 +6,31 @@ export const useTypingAnimation = (words: string[], typeSpeed: number = 150, del
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    const currentWord = words[currentWordIndex];
+    if (!words || words.length === 0) return;
     
-    const timeout = setTimeout(() => {
-      if (isDeleting) {
-        setCurrentText(currentWord.substring(0, currentText.length - 1));
-        
-        if (currentText === "") {
-          setIsDeleting(false);
-          setCurrentWordIndex((prev) => (prev + 1) % words.length);
-        }
+    const currentWord = words[currentWordIndex];
+    let timeout: NodeJS.Timeout;
+
+    if (isDeleting) {
+      if (currentText.length > 0) {
+        timeout = setTimeout(() => {
+          setCurrentText(currentText.slice(0, -1));
+        }, deleteSpeed);
       } else {
-        setCurrentText(currentWord.substring(0, currentText.length + 1));
-        
-        if (currentText === currentWord) {
-          setTimeout(() => setIsDeleting(true), pauseTime);
-          return;
-        }
+        setIsDeleting(false);
+        setCurrentWordIndex((prev) => (prev + 1) % words.length);
       }
-    }, isDeleting ? deleteSpeed : typeSpeed);
+    } else {
+      if (currentText.length < currentWord.length) {
+        timeout = setTimeout(() => {
+          setCurrentText(currentWord.slice(0, currentText.length + 1));
+        }, typeSpeed);
+      } else {
+        timeout = setTimeout(() => {
+          setIsDeleting(true);
+        }, pauseTime);
+      }
+    }
 
     return () => clearTimeout(timeout);
   }, [currentText, currentWordIndex, isDeleting, words, typeSpeed, deleteSpeed, pauseTime]);
