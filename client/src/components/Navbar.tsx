@@ -29,7 +29,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              💖 My Love
+              Birthday Gift
             </motion.div>
           </Link>
           

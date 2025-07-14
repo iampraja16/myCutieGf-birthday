@@ -7,34 +7,69 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      src: "/images/gallery1.jpg",
       caption: "Beach Sunset Walk",
       aspectRatio: "aspect-[4/3]"
     },
     {
-      src: "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800",
+      src: "/images/gallery2.jpg",
       caption: "Our First Coffee Date",
       aspectRatio: "aspect-square"
     },
     {
-      src: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800",
+      src: "/images/gallery3.jpg",
       caption: "Garden Adventures",
       aspectRatio: "aspect-square"
     },
     {
-      src: "https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      src: "/images/gallery4.jpg",
       caption: "Cozy Movie Night",
       aspectRatio: "aspect-[4/3]"
     },
     {
-      src: "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+      src: "/images/gallery5.jpg",
       caption: "Candlelit Dinner",
+      aspectRatio: "aspect-[4/3]"
+    },
+    {
+      src: "/images/gallery6.jpg",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/3]"
+    },
+    {
+      src: "/images/gallery7.jpg",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/3]"
+    },
+    {
+      src: "/images/gallery8.jpg",
+      caption: "Perfect Picnic Day",
       aspectRatio: "aspect-[4/5]"
     },
     {
-      src: "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      src: "/images/gallery9.jpg",
       caption: "Perfect Picnic Day",
-      aspectRatio: "aspect-[4/3]"
+      aspectRatio: "aspect-[4/5]"
+    },
+    {
+      src: "/images/gallery10.jpg",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/5]"
+    },
+    {
+      src: "/images/gallery11.JPG",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/5]"
+    },
+    {
+      src: "/images/selfie-time-1746866003004.jpg.jpg",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/5]"
+    },
+    {
+      src: "/images/gallery13.jpg",
+      caption: "Perfect Picnic Day",
+      aspectRatio: "aspect-[4/5]"
     }
   ];
 

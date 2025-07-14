@@ -34,7 +34,7 @@ const InteractivePhoto = () => {
         >
           {/* Placeholder for girlfriend photo */}
           <img
-            src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=500"
+            src="/images/home.jpg"
             alt="My beautiful girlfriend"
             className="w-80 h-96 object-cover rounded-2xl filter grayscale hover:grayscale-0 transition-all duration-500"
           />

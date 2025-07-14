@@ -5,32 +5,32 @@ const Reasons = () => {
     {
       emoji: "😊",
       title: "Your Beautiful Smile",
-      description: "Your smile lights up my entire world and makes even the gloomiest days feel bright and beautiful."
+      description: "Senyummu selalu berhasil mencerahkan hariku, bahkan di saat-saat paling gelap. Ada ketenangan yang tak bisa dijelaskan setiap kali aku melihatnya."
     },
     {
-      emoji: "🤗",
-      title: "Your Warm Hugs",
-      description: "In your arms, I feel completely safe and loved. Your hugs can fix anything and everything."
+      emoji: "🤍",
+      title: "Your Maturity & Understanding",
+      description: "Kamu selalu tahu bagaimana cara bersikap tenang, bagaimana memahami tanpa harus banyak kata. Kedewasaanmu membuat aku merasa dihargai, didengarkan, dan selalu dimengerti."
     },
     {
       emoji: "😂",
       title: "Your Adorable Laugh",
-      description: "Your laugh is my favorite sound in the world. It's contagious and fills me with pure joy."
+      description: "Tawamu adalah suara favoritku di dunia. Sederhana, tulus, dan selalu berhasil membuat hatiku ikut bahagia."
     },
     {
       emoji: "💝",
       title: "Your Kind Heart",
-      description: "You have the most beautiful soul. Your kindness and compassion inspire me every day."
+      description: "Kamu punya hati yang begitu tulus. Kebaikan dan ketulusanmu selalu jadi alasan aku ingin terus belajar menjadi lebih baik."
     },
     {
       emoji: "🌟",
       title: "Your Inner Strength",
-      description: "You're so much stronger than you know. I admire your resilience and determination."
+      description: "Kamu jauh lebih kuat dari apa yang kamu kira. Aku selalu kagum melihat caramu bertahan, caramu bangkit, dan caramu terus melangkah."
     },
     {
       emoji: "🥰",
       title: "Simply Being You",
-      description: "You don't need to be anyone else. Just being yourself is more than enough to make me fall in love every day."
+      description: "Kamu tak perlu menjadi siapa pun. Hanya dengan menjadi dirimu sendiri, kamu sudah cukup membuatku jatuh cinta lagi, setiap hari."
     }
   ];
 

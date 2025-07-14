@@ -82,51 +82,51 @@
   }
   
   .text-dusty-pink {
-    color: hsl(var(--dusty-pink));
+    color: var(--dusty-pink);
   }
   
   .text-blush {
-    color: hsl(var(--blush));
+    color: var(--blush);
   }
   
   .text-cream {
-    color: hsl(var(--cream));
+    color: var(--cream);
   }
   
   .text-lavender {
-    color: hsl(var(--lavender));
+    color: var(--lavender);
   }
   
   .text-hot-pink {
-    color: hsl(var(--hot-pink));
+    color: var(--hot-pink);
   }
   
   .text-plum {
-    color: hsl(var(--plum));
+    color: var(--plum);
   }
   
   .bg-dusty-pink {
-    background-color: hsl(var(--dusty-pink));
+    background-color: var(--dusty-pink);
   }
   
   .bg-blush {
-    background-color: hsl(var(--blush));
+    background-color: var(--blush);
   }
   
   .bg-cream {
-    background-color: hsl(var(--cream));
+    background-color: var(--cream);
   }
   
   .bg-lavender {
-    background-color: hsl(var(--lavender));
+    background-color: var(--lavender);
   }
   
   .bg-hot-pink {
-    background-color: hsl(var(--hot-pink));
+    background-color: var(--hot-pink);
   }
   
   .bg-plum {
-    background-color: hsl(var(--plum));
+    background-color: var(--plum);
   }
   
   .glassmorphism {
@@ -136,7 +136,7 @@
   }
   
   .romantic-gradient {
-    background: linear-gradient(135deg, hsl(var(--dusty-pink)) 0%, hsl(var(--lavender)) 50%, hsl(var(--blush)) 100%);
+    background: linear-gradient(135deg, var(--dusty-pink) 0%, var(--lavender) 50%, var(--blush) 100%);
   }
   
   .typing-cursor::after {

@@ -5,19 +5,27 @@ const Letter = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(false);
 
-  const letterContent = `My Dearest Love,
+  const letterContent = `Selamat Ulang Tahun, Sayangnya Aku💖,
 
-Today marks another year of your beautiful existence, and I can't help but feel overwhelmed with gratitude for having you in my life. Every day with you feels like a celebration, but today is extra special because it's all about you.
+Pernahkah kamu sadar, betapa semesta punya cara yang aneh saat mempertemukan dua manusia? Aku tak pernah benar-benar percaya, bahwa rasa yang dulu cuma mampir di angan, akhirnya menemukan rumahnya di kenyataan.
 
-From the moment you walked into my life, everything changed. Your smile brightened my darkest days, your laugh became my favorite melody, and your love became my safe haven. You've shown me what it means to love and be loved unconditionally.
+Dulu aku hanya seorang secret admirer, dari jauh. Tak berharap apa-apa, tak pernah benar-benar berani membayangkan lebih. Tapi lihatlah hari ini… aku yang menuliskan ini untukmu, aku yang memanggilmu "sayangnya aku".
 
-I love how you scrunch your nose when you laugh, how you get excited about the smallest things, and how you always know exactly what to say to make everything better. Your kindness, your strength, your beautiful soul - everything about you amazes me every single day.
+Hari ini adalah tentang kamu. Tentang hari ketika kamu dilahirkan ke dunia, tumbuh menjadi perempuan yang kuat, tangguh, dan istimewa seperti yang aku kenal sekarang. Tapi bagiku, hari ini juga tentang rasa syukur. Syukur karena aku diberi kesempatan menemani langkahmu, mengenal hatimu lebih dalam, dan mencintai kamu dengan cara yang tak lagi sebatas kata.
 
-On this special day, I want you to know that you deserve all the happiness in the world. You deserve to be celebrated not just today, but every day. You are extraordinary, and I feel so lucky to call you mine.
+Sudah hampir setahun kita berjalan bersama. Waktu memang belum lama, tapi rasanya lebih dari cukup untuk membuatku mengerti bahwa apa yang kita punya ini bukan sekadar tentang rindu, bukan sekadar tentang jarak, tapi tentang bagaimana dua orang bisa sama-sama belajar menjaga, bertumbuh, dan bertahan.
 
-Thank you for being you - for being patient with me, for believing in us, and for making every ordinary moment feel magical. I can't wait to create more beautiful memories with you.
+Dari yang dulunya bisa bertemu setiap hari, hingga kini yang harus merelakan jarak, menunggu waktu, menyimpan rindu dengan sabar. Tapi anehnya, aku tak pernah takut kehilangan. Karena kita selalu tahu cara pulang, meski jalannya berliku. Aku percaya pada satu hal bahwa yang diikat oleh rasa, tak akan mudah goyah hanya karena waktu.
 
-Happy Birthday, my beautiful girl. Here's to another year of your amazing life and to many more birthdays together.
+Sayangnya aku,
+Kamu perempuan paling kuat yang pernah aku temui. Tak ada badai yang membuatmu gentar. Tak ada luka yang membuatmu berhenti melangkah. Kamu selalu tegar, selalu berani, selalu tahu bagaimana caranya menyembuhkan diri sendiri, bahkan saat tak seorang pun paham betapa berat langkahmu. Dan aku? Aku selalu bangga bisa berdiri di sisimu.
+
+Kamu adalah warna dalam hidupku. Perempuan yang dulu cuma aku pandangi dari jauh, kini jadi alasan di balik senyumku setiap hari. Betapa beruntungnya aku, sosok biasa, bisa memiliki perempuan seistimewa kamu.
+
+Selamat ulang tahun, sayangnya aku.
+Semoga langkahmu selalu dilapangkan, semoga hatimu selalu dijaga bahagia. Semoga semua hal baik yang kamu harapkan, perlahan-lahan datang, satu per satu, dengan cara yang paling indah. Dan semoga aku selalu diizinkan jadi orang yang menemani kamu melihat semuanya terjadi.
+
+Terima kasih sudah lahir, sudah kuat sejauh ini, sudah memilih aku. Aku mencintaimu, dengan cara yang paling sederhana, paling setia, dan paling tulus.
 
 Forever yours,
 [Your Name] 💖`;

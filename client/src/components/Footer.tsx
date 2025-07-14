@@ -10,7 +10,7 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Made with <span className="text-hot-pink text-xl">❤️</span> by [Your Name]
+          Made with <span className="text-hot-pink text-xl">❤️</span> by Praja
         </motion.p>
         <motion.p
           className="text-gray-500 text-sm mt-2"

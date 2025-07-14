@@ -4,28 +4,28 @@ const Wishes = () => {
   const wishes = [
     {
       icon: "fas fa-plane",
-      title: "Travel the World Together",
-      description: "I dream of exploring beautiful places with you - from the cherry blossoms in Japan to the romantic streets of Paris.",
+      title: "Wandering With You",
+      description: "Mengeksplorasi banyak destinasi bersama sosok eksploratif seperti mu. Dari ujung pantai berpasir putih hingga hutan yang sejuk dan sunyi. Menyaksikan betapa indahnya Indonesia, adalah impian kita bukan?",
       gradient: "from-dusty-pink to-blush"
     },
     {
       icon: "fas fa-home",
-      title: "Build Our Cozy Home",
-      description: "A little house filled with love, laughter, plants, and all our favorite things. Our own peaceful sanctuary.",
+      title: "Our Little Home",
+      description: "Rumah sederhana yang penuh tawa, cinta, tanaman, dan hal-hal kecil kesukaan kita. Tempat paling nyaman untuk pulang, tempat paling damai untuk tumbuh bersama.",
       gradient: "from-lavender to-plum"
     },
     {
       icon: "fas fa-ring",
-      title: "Forever Together",
-      description: "I want to spend the rest of my life making you happy and building a beautiful future together.",
+      title: "Forever, With You",
+      description: "Aku ingin menghabiskan sisa hidupku bersamamu, saling membahagiakan, membangun masa depan yang indah, dan terus menjaga apa yang sudah kita mulai hari ini.",
       gradient: "from-blush to-hot-pink"
     },
     {
       icon: "fas fa-heart",
-      title: "Grow Old Together",
-      description: "I want to share every season of life with you, creating beautiful memories until we're old and gray.",
+      title: "Growing Old With You",
+      description: "Aku ingin melalui setiap musim hidup bersamamu. Mencipta kenangan, berbagi tawa, hingga nanti kita tua, dan cerita kita tetap abadi dalam hati.",
       gradient: "from-dusty-pink to-lavender"
-    }
+    }    
   ];
 
   return (
@@ -43,6 +43,23 @@ const Wishes = () => {
           <p className="text-xl text-gray-600 font-inter">
             All the beautiful things I want to experience with you
           </p>
+          <div className="flex justify-center space-x-2 mt-4">
+            <motion.i
+              className="fas fa-heart text-hot-pink text-xl"
+              animate={{ scale: [1, 1.2, 1] }}
+              transition={{ duration: 1, repeat: Infinity }}
+            />
+            <motion.i
+              className="fas fa-star text-dusty-pink text-lg"
+              animate={{ rotate: [0, 360] }}
+              transition={{ duration: 3, repeat: Infinity }}
+            />
+            <motion.i
+              className="fas fa-heart text-hot-pink text-xl"
+              animate={{ scale: [1, 1.2, 1] }}
+              transition={{ duration: 1, repeat: Infinity, delay: 0.5 }}
+            />
+          </div>
         </motion.div>
         
         <div className="max-w-4xl mx-auto space-y-8">
@@ -85,34 +102,53 @@ const Wishes = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
         >
-          <div className="glassmorphism rounded-3xl p-8 shadow-2xl max-w-2xl mx-auto">
-            <motion.h3
-              className="font-dancing text-4xl text-hot-pink mb-6"
-              animate={{ scale: [1, 1.05, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            >
-              Happy Birthday, My Love!
-            </motion.h3>
-            <p className="text-xl text-gray-600 font-inter leading-relaxed">
-              Thank you for being the most amazing person in my life. I love you more than words can express, and I can't wait to see what beautiful adventures await us. Here's to your special day and to our forever love story. 💕
-            </p>
+          <div className="glassmorphism rounded-3xl p-10 shadow-2xl max-w-3xl mx-auto border border-hot-pink/20">
             <motion.div
-              className="flex justify-center space-x-2 mt-6 text-2xl"
+              className="mb-8"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 1.2 }}
+            >
+              <h3 className="font-playfair text-5xl font-bold text-hot-pink mb-4">
+                Happy Birthday Yaa!
+              </h3>
+              <div className="w-24 h-1 bg-gradient-to-r from-hot-pink to-dusty-pink mx-auto rounded-full"></div>
+            </motion.div>
+            
+            <motion.div
+              className="space-y-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 1.4 }}
+            >
+              <p className="text-xl text-gray-700 font-inter leading-relaxed font-medium">
+                Terima kasih sudah menjadi sosok paling luar biasa dalam hidupku.
+              </p>
+              <p className="text-lg text-gray-600 font-inter leading-relaxed">
+                Aku mencintaimu lebih dari apa pun yang bisa dijelaskan oleh kata-kata. Dan aku tak sabar menunggu, melihat kemana langkah indah kita akan membawa cerita ini.
+              </p>
+              <p className="text-lg text-gray-600 font-inter leading-relaxed">
+                Untuk hari spesialmu hari ini, dan untuk kisah kita yang semoga selamanya.
+              </p>
+            </motion.div>
+            
+            <motion.div
+              className="flex justify-center space-x-3 mt-8 text-3xl"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5 }}
+              transition={{ delay: 1.8 }}
             >
               {['💖', '💕', '💗', '💝', '💖'].map((heart, index) => (
                 <motion.span
                   key={index}
                   animate={{ 
-                    y: [0, -10, 0],
-                    scale: [1, 1.2, 1]
+                    y: [0, -8, 0],
+                    scale: [1, 1.1, 1]
                   }}
                   transition={{ 
-                    duration: 1.5,
+                    duration: 1.2,
                     repeat: Infinity,
-                    delay: index * 0.2
+                    delay: index * 0.15
                   }}
                 >
                   {heart}

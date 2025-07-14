@@ -4,7 +4,7 @@ import TypingText from "@/components/TypingText";
 import InteractivePhoto from "@/components/InteractivePhoto";
 
 const Home = () => {
-  const romanticWords = ['MANIS', 'CANTIK', 'LUCU', 'GEMES', 'CREAMMY', 'VANILLA', 'LEMBUT', 'MWAA2'];
+  const romanticWords = ['manis', 'cantik', 'lucu', 'gemes', 'creammy', 'vanilla', 'lembut', 'mwaa-mwaa'];
 
   return (
     <section className="min-h-screen pt-20">
@@ -40,16 +40,16 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Happy Birthday Yaa
+                Happy Birthday!
               </motion.h1>
               <motion.div
-                className="text-2xl md:text-3xl font-inter text-gray-700"
+                className="text-3xl md:text-4xl font-playfair text-gray-700"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 <span>Pacarnya aku yang </span>
-                <span className="inline-block px-4 py-2 bg-gradient-to-r from-dusty-pink to-blush rounded-full text-white font-medium">
+                <span className="inline-block px-4 py-2 bg-gradient-to-r from-dusty-pink to-blush rounded-full text-white font-bold">
                   <TypingText words={romanticWords} />
                 </span>
               </motion.div>
@@ -96,7 +96,7 @@ const Home = () => {
             >
               <Link href="/letter">
                 <motion.button
-                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-hot-pink hover:text-white hover:shadow-lg transition-all duration-300"
+                  className="bg-gradient-to-r from-hot-pink to-dusty-pink px-6 py-3 rounded-full text-white font-medium hover:from-dusty-pink hover:to-hot-pink hover:shadow-xl transition-all duration-300 shadow-lg"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -106,7 +106,7 @@ const Home = () => {
               </Link>
               <Link href="/gallery">
                 <motion.button
-                  className="glassmorphism px-6 py-3 rounded-full text-hot-pink font-medium hover:bg-plum hover:text-white hover:shadow-lg transition-all duration-300"
+                  className="bg-gradient-to-r from-dusty-pink to-hot-pink px-6 py-3 rounded-full text-white font-medium hover:from-hot-pink hover:to-dusty-pink hover:shadow-xl transition-all duration-300 shadow-lg"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
