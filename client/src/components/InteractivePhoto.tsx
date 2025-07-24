@@ -65,7 +65,7 @@ const InteractivePhoto = () => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
           >
-            hi, it's my cutie gf! 💕
+            hi, it's my pretty gf! 💕
           </motion.div>
         )}
       </div>
