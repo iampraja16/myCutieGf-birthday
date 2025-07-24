@@ -5,30 +5,32 @@ const Letter = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(false);
 
-  const letterContent = `Selamat Ulang Tahun, Sayangnya Aku💖,
+  const letterContent = `Selamat Ulang Tahun, Sayangnya Aku 💖
 
-Pernahkah kamu sadar, betapa semesta punya cara yang aneh saat mempertemukan dua manusia? Aku tak pernah benar-benar percaya, bahwa rasa yang dulu cuma mampir di angan, akhirnya menemukan rumahnya di kenyataan.
+Pernahkah kamu pikir bahwa semesta kadang lucu dalam mempertemukan dua orang? Tidak selalu lewat dentuman dan bukan pula lewat gegap-gempita. Kadang, hanya lewat perasaan kecil yang diam-diam tumbuh seperti tunas yang pelan-pelan menyusup dari tanah yang basah. Aku tidak pernah sungguh percaya bahwa perasaan yang hanya berani mampir di angan itu suatu hari bisa punya tempat tinggal, di sini, di antara kita.
 
-Dulu aku hanya seorang secret admirer, dari jauh. Tak berharap apa-apa, tak pernah benar-benar berani membayangkan lebih. Tapi lihatlah hari ini… aku yang menuliskan ini untukmu, aku yang memanggilmu "sayangnya aku".
+Dulu aku cuma bayang-bayang. Pengagum yang bahkan tidak tahu apa yang patut dikagumi selain kenyataan bahwa kamu ada. Aku tidak berharap balasan dan bahkan tidak mengharapkan peran. Tapi lihat hari ini, aku di sini, menuliskan ini untukmu dan memanggilmu "sayangnya aku". Seolah semesta akhirnya mengerti bahasa yang selama ini kutahan sendiri.
 
-Hari ini adalah tentang kamu. Tentang hari ketika kamu dilahirkan ke dunia, tumbuh menjadi perempuan yang kuat, tangguh, dan istimewa seperti yang aku kenal sekarang. Tapi bagiku, hari ini juga tentang rasa syukur. Syukur karena aku diberi kesempatan menemani langkahmu, mengenal hatimu lebih dalam, dan mencintai kamu dengan cara yang tak lagi sebatas kata.
+Hari ini adalah tentang kamu, tentang perempuan yang pernah kecil dan rapuh, tetapi tumbuh menjadi tangguh tanpa kehilangan cara untuk lembut. Namun bagiku, hari ini bukan hanya perayaan lahirmu, melainkan juga perayaan syukurku. Sebab aku bisa mengenalmu, bisa mencintaimu, dan bisa dipilih untuk berdiri di sampingmu.
 
-Sudah hampir setahun kita berjalan bersama. Waktu memang belum lama, tapi rasanya lebih dari cukup untuk membuatku mengerti bahwa apa yang kita punya ini bukan sekadar tentang rindu, bukan sekadar tentang jarak, tapi tentang bagaimana dua orang bisa sama-sama belajar menjaga, bertumbuh, dan bertahan.
+Sudah hampir setahun kita berjalan bersama. Waktu itu memang belum panjang, tetapi cukup untuk menjelaskan banyak hal. Bahwa cinta bukan hanya soal ingin dekat, dan bukan sekadar tentang rindu yang minta dijemput. Cinta adalah tentang bagaimana kita tetap saling menunggu dan tetap saling menjaga bahkan saat jarak menyusun jarak lain di antara kita.
 
-Dari yang dulunya bisa bertemu setiap hari, hingga kini yang harus merelakan jarak, menunggu waktu, menyimpan rindu dengan sabar. Tapi anehnya, aku tak pernah takut kehilangan. Karena kita selalu tahu cara pulang, meski jalannya berliku. Aku percaya pada satu hal bahwa yang diikat oleh rasa, tak akan mudah goyah hanya karena waktu.
+Kita pernah dekat lalu dipisahkan oleh hal-hal yang tidak bisa kita atur. Tapi anehnya, aku tidak pernah takut kehilangan, sebab kamu tidak pernah benar-benar pergi. Kita selalu tahu arah pulang, meskipun jalannya sesekali samar. Dan aku percaya bahwa apa pun yang diikat oleh rasa tidak mudah diguncang oleh waktu.
 
-Sayangnya aku,
-Kamu perempuan paling kuat yang pernah aku temui. Tak ada badai yang membuatmu gentar. Tak ada luka yang membuatmu berhenti melangkah. Kamu selalu tegar, selalu berani, selalu tahu bagaimana caranya menyembuhkan diri sendiri, bahkan saat tak seorang pun paham betapa berat langkahmu. Dan aku? Aku selalu bangga bisa berdiri di sisimu.
+Sayangnya aku,  
+Kamu adalah perempuan paling kuat yang pernah kutemui. Kamu tahu caranya berjalan dengan luka dan tahu bagaimana tetap tersenyum meskipun hari terasa berat. Tidak semua orang bisa berdamai dengan kenyataan sepertimu. Dan aku hanyalah seseorang yang beruntung karena kamu mengizinkanku berdiri di sisimu.
 
-Kamu adalah warna dalam hidupku. Perempuan yang dulu cuma aku pandangi dari jauh, kini jadi alasan di balik senyumku setiap hari. Betapa beruntungnya aku, sosok biasa, bisa memiliki perempuan seistimewa kamu.
+Dunia tidak perlu tahu sehebat apa aku mencintaimu. Namun dunia harus tahu bahwa kamu memang sepantas itu untuk dicintai. Mereka harus tahu bahwa ada keindahan yang tidak bisa dijelaskan logika dan hanya bisa dirasakan. Bahwa ada ciptaan Tuhan yang wujudnya adalah kamu, dan aku, untuk kesekian kalinya, adalah manusia yang merasa damai hanya dengan melihatmu baik-baik saja.
 
-Selamat ulang tahun, sayangnya aku.
-Semoga langkahmu selalu dilapangkan, semoga hatimu selalu dijaga bahagia. Semoga semua hal baik yang kamu harapkan, perlahan-lahan datang, satu per satu, dengan cara yang paling indah. Dan semoga aku selalu diizinkan jadi orang yang menemani kamu melihat semuanya terjadi.
+Kamu adalah warna yang tidak pernah kupinta tetapi sangat kusyukuri. Perempuan yang dulu cuma kupandangi dari kejauhan, kini menjadi alasan dari tenangku setiap malam. Betapa beruntungnya aku, yang tidak lebih dari lelaki biasa, bisa mencintai seseorang seistimewamu.
 
-Terima kasih sudah lahir, sudah kuat sejauh ini, sudah memilih aku. Aku mencintaimu, dengan cara yang paling sederhana, paling setia, dan paling tulus.
+Selamat ulang tahun, sayangnya aku.  
+Semoga langkahmu selalu dilapangkan dan hatimu senantiasa dijaga. Semoga semua yang kamu impikan pelan-pelan datang satu per satu, seperti hujan yang tidak pernah tergesa tetapi selalu tiba. Dan semoga aku selalu diberi peran untuk menyaksikannya bersamamu.
 
-Forever yours,
-[Your Name] 💖`;
+Terima kasih karena sudah lahir, sudah kuat sejauh ini, dan sudah memilihku. Aku mencintaimu dengan cara yang tidak selalu kamu lihat, tetapi semoga selalu kamu rasakan dalam diam, dalam sabar, dan dalam setia.
+
+Forever yours,  
+Praja 💖`;
 
   useEffect(() => {
     setIsTyping(true);
