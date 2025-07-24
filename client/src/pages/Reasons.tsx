@@ -5,32 +5,32 @@ const Reasons = () => {
     {
       emoji: "😊",
       title: "Your Beautiful Smile",
-      description: "Senyummu selalu berhasil mencerahkan hariku, bahkan di saat-saat paling gelap. Ada ketenangan yang tak bisa dijelaskan setiap kali aku melihatnya."
+      description: "Setiap kali kamu senyum, rasanya hari jadi lebih ringan aja. Bahkan pas mood aku lagi jelek, cukup lihat senyum kamu, semuanya pelan-pelan membaik lagi."
     },
     {
       emoji: "🤍",
       title: "Your Maturity & Understanding",
-      description: "Kamu selalu tahu bagaimana cara bersikap tenang, bagaimana memahami tanpa harus banyak kata. Kedewasaanmu membuat aku merasa dihargai, didengarkan, dan selalu dimengerti."
+      description: "Kamu selalu ngerti tanpa aku harus jelasin banyak. Kamu selalu bisa jadi pendengar yang baik. Cara kamu ngerti perasaan orang itu nggak dibuat-buat, dan aku ngerasa bener bener diperhatiin."
     },
     {
       emoji: "😂",
       title: "Your Adorable Laugh",
-      description: "Tawamu adalah suara favoritku di dunia. Sederhana, tulus, dan selalu berhasil membuat hatiku ikut bahagia."
+      description: "Dengar kamu ketawa tuh bikin hati ikut ketawa juga. Tulus, lepas, dan jujur aja nggak bisa nggak senyum tiap dengar ketawa itu."
     },
     {
       emoji: "💝",
       title: "Your Kind Heart",
-      description: "Kamu punya hati yang begitu tulus. Kebaikan dan ketulusanmu selalu jadi alasan aku ingin terus belajar menjadi lebih baik."
+      description: "Kebaikan kamu tuh bukan cuma ke aku, tapi ke siapa pun. Kamu tulus banget, dan itu bikin aku belajar buat jadi orang yang lebih baik juga."
     },
     {
       emoji: "🌟",
       title: "Your Inner Strength",
-      description: "Kamu jauh lebih kuat dari apa yang kamu kira. Aku selalu kagum melihat caramu bertahan, caramu bangkit, dan caramu terus melangkah."
+      description: "Kamu mungkin nggak selalu sadar, tapi aku lihat gimana kamu terus berdiri walau lagi capek. Kamu tetap jalan, tetap senyum, dan itu keren banget."
     },
     {
       emoji: "🥰",
       title: "Simply Being You",
-      description: "Kamu tak perlu menjadi siapa pun. Hanya dengan menjadi dirimu sendiri, kamu sudah cukup membuatku jatuh cinta lagi, setiap hari."
+      description: "buat aku, diri kamu yang sekarang, itu udah sangat amat lebih dari cukup sayangku"
     }
   ];
 
