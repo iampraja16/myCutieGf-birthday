@@ -4,42 +4,43 @@ const Timeline = () => {
   const timelineItems = [
     {
       title: "Secret Admiration Begins 💭",
-      description: "Semua ini berawal dari diam. Sejak Oktober 2022, aku sudah lebih dulu menyimpan rasa. Lima semester menjadi pengagum rahasia, hanya berani memandang dari jauh, bahkan sekadar menyapa pun rasanya sungkan. Tapi meski diam, hati ini selalu berharap semoga suatu hari semesta memihak.",
+      description: "Waktu itu aku cuma bisa jadi penonton. Diem-diem nunggu kamu lewat, deam-diem nyari alasan buat ngeliat kamu lagi. Sejak Oktober 2022, isi kepala aku 'gimana cara ngobrol sama nada ya', padahal belum ada satu chat pun. Lucu ya, gimana perasaan bisa tumbuh bahkan sebelum kita benar-benar kenal?",
       date: "Oktober 2022",
       color: "bg-hot-pink"
     },
     {
       title: "Crossing Paths for Real 🌸",
-      description: "Tuhan punya caranya sendiri mempertemukan kita lebih dekat. Lewat MOKA-KU UPI, aku jadi bagian dari timmu. Dari situ, kita mulai bercakap. Setiap hari rasanya lebih ringan, lebih semangat. Ada alasan baru kenapa aku tak pernah lelah menjalaninya, yaitu kamu. Di situlah aku benar-benar merasa, “Oh, akhirnya aku punya kesempatan",
+      description: "Titik baliknya waktu MOKA-KU UPI. Tiba-tiba aku masuk di divisi yang sama sama kamu. Dari situ kita mulai ngobrol, mulai nyambung. Rasanya tiap hari jadi lebih semangat aja. Ada kamu yang bikin semuanya terasa lebih seru dijalanin.",
       date: "Mei 2024",
       color: "bg-hot-pink"
     },
     {
       title: "First Date, Officially Together 💕",
-      description: "Tanggal 13 September jadi hari yang tak akan pernah aku lupa. Hari di mana akhirnya kamu berkata “iya”. Hari di mana kita bukan lagi sekadar teman, bukan lagi sebatas pengagum dan yang dikagumi. Hari pertama kita jalan berdua, hari pertama juga kita resmi jadi ‘kita’. Dari sini semuanya benar-benar mulai.",
+      description: "13 September, hari yang nggak akan aku lupain. Hari kamu bilang 'iya', dan sejak itu semuanya berubah. Kita jalan berdua untuk pertama kali, dan akhirnya jadi pasangan juga. Mulai dari situ, cerita kita beneran dimulai.",
       date: "September 2024",
       color: "bg-dusty-pink"
     },
     {
-      title: "Hand in Hand, Every Morning  🚶‍♂️",
-      description: "Hari-hari sederhana yang justru terasa paling hangat. Menyusuri jalan menuju kampus, bergandeng tangan, bercanda, tertawa, seolah dunia tak pernah benar-benar seberat itu selama kita saling ada. Momen kecil yang mungkin terlihat biasa bagi orang lain, tapi bagiku… itulah yang membuat segalanya terasa utuh.",
+      title: "Hand in Hand, Every Morning 🚶‍♂️",
+      description: "Jalan bareng ke kampus, ngobrol, ketawa, gandengan, hal-hal kecil yang bikin hari berasa hangat banget. Nggak perlu yang mewah, cukup kayak gitu aja udah bikin aku ngerasa tenang dan bahagia.",
       date: "September 2024",
       color: "bg-lavender"
     },
     {
       title: "Lovin u, Across the Distance 💌",
-      description: "Waktu berganti, keadaan memaksa kita berjeda. Tapi rindu tak pernah hilang, justru semakin kita jaga. Meski jarak membentang, kita tetap saling mengabari, tetap menyempatkan waktu bercerita sebelum malam benar-benar larut. Kita tahu, rindu ini bukan tanda lemah, tapi bukti betapa kita sama-sama ingin bertahan.",
+      description: "Sekarang kita udah nggak bisa sering ketemu, tapi rasanya tetap deket. Masih saling kabar, masih sempetin ngobrol sebelum tidur. Rindu itu tetap ada, malah makin kerasa. Tapi aku tahu, LDR ini menyebalkan yeahh.",
       date: "Januari 2025",
       color: "bg-blush"
     },
     {
       title: "Your Birthday Today! 🎉",
-      description: "Celebrating the most amazing person in my life. Here's to many more birthdays together!",
+      description: "Selamat ulang tahun ya. Aku seneng banget bisa rayain ini bareng kamu. Semoga hari-harimu makin penuh hal baik dan aku bisa terus nemenin kamu ngeliat semuanya satu per satu kejadian.",
       date: "Today",
       color: "bg-hot-pink",
       isSpecial: true
     }
   ];
+  
 
   return (
     <section className="min-h-screen pt-20">
