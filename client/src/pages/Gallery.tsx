@@ -8,67 +8,67 @@ const Gallery = () => {
   const galleryImages = [
     {
       src: "/images/gallery1.jpg",
-      caption: "Beach Sunset Walk",
+      caption: "Our Haus Date",
       aspectRatio: "aspect-[4/3]"
     },
     {
       src: "/images/gallery2.jpg",
-      caption: "Our First Coffee Date",
+      caption: "Cosplaying the Chipmunk Style?",
       aspectRatio: "aspect-square"
     },
     {
       src: "/images/gallery3.jpg",
-      caption: "Garden Adventures",
+      caption: "Braga Adventures",
       aspectRatio: "aspect-square"
     },
     {
       src: "/images/gallery4.jpg",
-      caption: "Cozy Movie Night",
-      aspectRatio: "aspect-[4/3]"
+      caption: "Dizzy Carousel HUFT",
+      aspectRatio: "aspect-square"
     },
     {
       src: "/images/gallery5.jpg",
-      caption: "Candlelit Dinner",
-      aspectRatio: "aspect-[4/3]"
+      caption: "Morning Run",
+      aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/gallery6.jpg",
-      caption: "Perfect Picnic Day",
-      aspectRatio: "aspect-[4/3]"
+      caption: "Butterfly Sat On Butterfly",
+      aspectRatio: "aspect-square"
     },
     {
       src: "/images/gallery7.jpg",
-      caption: "Perfect Picnic Day",
-      aspectRatio: "aspect-[4/3]"
+      caption: "First Pict of Us?",
+      aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/gallery8.jpg",
-      caption: "Perfect Picnic Day",
+      caption: "We Scream for Ice Cream",
       aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/gallery9.jpg",
-      caption: "Perfect Picnic Day",
+      caption: "My Idol Singer",
       aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/gallery10.jpg",
-      caption: "Perfect Picnic Day",
-      aspectRatio: "aspect-[4/5]"
+      caption: "My Idol Singer Pt.2",
+      aspectRatio: "aspect-square"
     },
     {
       src: "/images/gallery11.JPG",
-      caption: "Perfect Picnic Day",
+      caption: "Tahura Adventure",
       aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/selfie-time-1746866003004.jpg.jpg",
-      caption: "Perfect Picnic Day",
+      caption: "Fast like Flashh!!",
       aspectRatio: "aspect-[4/5]"
     },
     {
       src: "/images/gallery13.jpg",
-      caption: "Perfect Picnic Day",
+      caption: "Timezone Time!!",
       aspectRatio: "aspect-[4/5]"
     }
   ];
